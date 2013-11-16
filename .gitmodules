@@ -1,0 +1,6 @@
+[submodule "SPMediaKeyTap"]
+	path = SPMediaKeyTap
+	url = https://github.com/nevyn/SPMediaKeyTap.git
+[submodule "AudioStreamer"]
+	path = AudioStreamer
+	url = https://github.com/mattgallagher/AudioStreamer.git

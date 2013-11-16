@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250AE65B1837B49D004195F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250AE65A1837B49D004195F6 /* Cocoa.framework */; };
+		250AE6651837B49D004195F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 250AE6631837B49D004195F6 /* InfoPlist.strings */; };
+		250AE6671837B49D004195F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 250AE6661837B49D004195F6 /* main.m */; };
+		250AE66B1837B49D004195F6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 250AE6691837B49D004195F6 /* Credits.rtf */; };
+		250AE66E1837B49D004195F6 /* CRRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 250AE66D1837B49D004195F6 /* CRRAppDelegate.m */; };
+		250AE6711837B49D004195F6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 250AE66F1837B49D004195F6 /* MainMenu.xib */; };
+		250AE67A1837B49D004195F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250AE6791837B49D004195F6 /* XCTest.framework */; };
+		250AE67B1837B49D004195F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250AE65A1837B49D004195F6 /* Cocoa.framework */; };
+		250AE6831837B49D004195F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 250AE6811837B49D004195F6 /* InfoPlist.strings */; };
+		250AE6851837B49D004195F6 /* Client_Room_RadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 250AE6841837B49D004195F6 /* Client_Room_RadioTests.m */; };
+		251733E8186711EB0058DFE8 /* cert.der in Resources */ = {isa = PBXBuildFile; fileRef = 251733E7186711EB0058DFE8 /* cert.der */; };
+		251733EC186750870058DFE8 /* cert.der in Resources */ = {isa = PBXBuildFile; fileRef = 251733E7186711EB0058DFE8 /* cert.der */; };
+		251733F0186764130058DFE8 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 251733EF186764130058DFE8 /* AudioStreamer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		251733F1186764130058DFE8 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 251733EF186764130058DFE8 /* AudioStreamer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		253B8951184FEDB600DF3833 /* CRRIChatDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 253B8950184FEDB600DF3833 /* CRRIChatDataSource.m */; };
+		253B8953184FFA7300DF3833 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253B8952184FFA7200DF3833 /* MediaPlayer.framework */; };
+		254B86AF185DD05C003C8E11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254B86AD185DCFD4003C8E11 /* UIKit.framework */; };
+		254B86B2185DE468003C8E11 /* CRRIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254B86B1185DE468003C8E11 /* CRRIViewDeckController.m */; };
+		254B86B5185DEEEB003C8E11 /* CRRIUsersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254B86B4185DEEEB003C8E11 /* CRRIUsersController.m */; };
+		254CE4C618496C45006D5BB7 /* NSObject+SPInvocationGrabbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 254CE4B818496C45006D5BB7 /* NSObject+SPInvocationGrabbing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		254CE4C718496C45006D5BB7 /* SPMediaKeyTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 254CE4BA18496C45006D5BB7 /* SPMediaKeyTap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		254CE4CD1849722B006D5BB7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254CE4CC1849722B006D5BB7 /* Carbon.framework */; };
+		254CE4D0184A1175006D5BB7 /* CRRUsersDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 254CE4CF184A1175006D5BB7 /* CRRUsersDataSource.m */; };
+		254CE524184B756D006D5BB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254CE523184B756D006D5BB7 /* Foundation.framework */; };
+		254CE526184B756D006D5BB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254CE525184B756D006D5BB7 /* CoreGraphics.framework */; };
+		254CE52E184B756D006D5BB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 254CE52C184B756D006D5BB7 /* InfoPlist.strings */; };
+		254CE530184B756D006D5BB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254CE52F184B756D006D5BB7 /* main.m */; };
+		254CE534184B756D006D5BB7 /* CRRIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254CE533184B756D006D5BB7 /* CRRIAppDelegate.m */; };
+		254CE537184B756D006D5BB7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254CE535184B756D006D5BB7 /* Main_iPhone.storyboard */; };
+		254CE53D184B756D006D5BB7 /* CRRIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254CE53C184B756D006D5BB7 /* CRRIViewController.m */; };
+		254CE53F184B756D006D5BB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254CE53E184B756D006D5BB7 /* Images.xcassets */; };
+		254CE545184B756D006D5BB7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250AE6791837B49D004195F6 /* XCTest.framework */; };
+		254CE546184B756E006D5BB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254CE523184B756D006D5BB7 /* Foundation.framework */; };
+		254CE547184B756E006D5BB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254CE527184B756D006D5BB7 /* UIKit.framework */; };
+		254CE54F184B756E006D5BB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 254CE54D184B756E006D5BB7 /* InfoPlist.strings */; };
+		254CE551184B756E006D5BB7 /* Client_Room_Radio_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254CE550184B756E006D5BB7 /* Client_Room_Radio_iOSTests.m */; };
+		254CE560184B7F89006D5BB7 /* CRRApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 254CE55F184B7F89006D5BB7 /* CRRApp.m */; };
+		254CE563184B7FF5006D5BB7 /* CRRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254CE562184B7FF5006D5BB7 /* CRRController.m */; };
+		254CE564184B7FF5006D5BB7 /* CRRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254CE562184B7FF5006D5BB7 /* CRRController.m */; };
+		255E4D2C18535DEF0092D067 /* CRRUsersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 255E4D2B18535DEF0092D067 /* CRRUsersModel.m */; };
+		255E4D2D18535DEF0092D067 /* CRRUsersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 255E4D2B18535DEF0092D067 /* CRRUsersModel.m */; };
+		255E4D3018535FFA0092D067 /* CRRIUsersDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 255E4D2F18535FFA0092D067 /* CRRIUsersDataSource.m */; };
+		257165C9184BFA75004BAB82 /* CRRILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257165C8184BFA75004BAB82 /* CRRILoginViewController.m */; };
+		257165CC184C0793004BAB82 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257165CA184C0793004BAB82 /* Main_iPad.storyboard */; };
+		258E66F218441B7E00999406 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258E66F118441B7E00999406 /* AudioToolbox.framework */; };
+		25D15BC1185346E600437469 /* CRRChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D15BC0185346E600437469 /* CRRChatModel.m */; };
+		25D15BC2185346E600437469 /* CRRChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D15BC0185346E600437469 /* CRRChatModel.m */; };
+		25D57832186884E20054384D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254CE53E184B756D006D5BB7 /* Images.xcassets */; };
+		25DF4E901846B92C00247029 /* CRRChatDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF4E8F1846B92C00247029 /* CRRChatDataSource.m */; };
+		8D2C5B5A0FC7402385745174 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE2FA54855F42F2A2477999 /* libPods-ios.a */; };
+		93D07D984C464D3592CA1AD3 /* libPods-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EBC150283D4FAD9FB798A5 /* libPods-osx.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		250AE67C1837B49D004195F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250AE64F1837B49D004195F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 250AE6561837B49D004195F6;
+			remoteInfo = "Client Room Radio";
+		};
+		254CE548184B756E006D5BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250AE64F1837B49D004195F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254CE521184B756D006D5BB7;
+			remoteInfo = "Client Room Radio iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049F73FB2F24482DA88F4CAA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2BFE425E2D4E1AA66642E4 /* Pods-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.xcconfig"; path = "Pods/Pods-ios.xcconfig"; sourceTree = "<group>"; };
+		250AE6571837B49D004195F6 /* Client Room Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Client Room Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		250AE65A1837B49D004195F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		250AE65D1837B49D004195F6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		250AE65E1837B49D004195F6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		250AE65F1837B49D004195F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		250AE6621837B49D004195F6 /* Client Room Radio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Client Room Radio-Info.plist"; sourceTree = "<group>"; };
+		250AE6641837B49D004195F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		250AE6661837B49D004195F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		250AE6681837B49D004195F6 /* Client Room Radio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Client Room Radio-Prefix.pch"; sourceTree = "<group>"; };
+		250AE66A1837B49D004195F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		250AE66C1837B49D004195F6 /* CRRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRRAppDelegate.h; sourceTree = "<group>"; wrapsLines = 1; };
+		250AE66D1837B49D004195F6 /* CRRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRRAppDelegate.m; sourceTree = "<group>"; };
+		250AE6701837B49D004195F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		250AE6781837B49D004195F6 /* Client Room RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Client Room RadioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		250AE6791837B49D004195F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		250AE6801837B49D004195F6 /* Client Room RadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Client Room RadioTests-Info.plist"; sourceTree = "<group>"; };
+		250AE6821837B49D004195F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		250AE6841837B49D004195F6 /* Client_Room_RadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client_Room_RadioTests.m; sourceTree = "<group>"; };
+		251733E7186711EB0058DFE8 /* cert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert.der; sourceTree = SOURCE_ROOT; };
+		251733ED186754A20058DFE8 /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
+		251733EE186764130058DFE8 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioStreamer.h; path = AudioStreamer/Classes/AudioStreamer.h; sourceTree = "<group>"; };
+		251733EF186764130058DFE8 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioStreamer.m; path = AudioStreamer/Classes/AudioStreamer.m; sourceTree = "<group>"; };
+		251733F21867664D0058DFE8 /* Keys.copy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keys.copy.h; sourceTree = "<group>"; };
+		253B894F184FEDB600DF3833 /* CRRIChatDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRIChatDataSource.h; sourceTree = "<group>"; };
+		253B8950184FEDB600DF3833 /* CRRIChatDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRIChatDataSource.m; sourceTree = "<group>"; };
+		253B8952184FFA7200DF3833 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		254B86AD185DCFD4003C8E11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		254B86B0185DE468003C8E11 /* CRRIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRIViewDeckController.h; sourceTree = "<group>"; };
+		254B86B1185DE468003C8E11 /* CRRIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRIViewDeckController.m; sourceTree = "<group>"; };
+		254B86B3185DEEEB003C8E11 /* CRRIUsersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRIUsersController.h; sourceTree = "<group>"; };
+		254B86B4185DEEEB003C8E11 /* CRRIUsersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRIUsersController.m; sourceTree = "<group>"; };
+		254CE4B718496C45006D5BB7 /* NSObject+SPInvocationGrabbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SPInvocationGrabbing.h"; path = "SPInvocationGrabbing/NSObject+SPInvocationGrabbing.h"; sourceTree = "<group>"; };
+		254CE4B818496C45006D5BB7 /* NSObject+SPInvocationGrabbing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SPInvocationGrabbing.m"; path = "SPInvocationGrabbing/NSObject+SPInvocationGrabbing.m"; sourceTree = "<group>"; };
+		254CE4B918496C45006D5BB7 /* SPMediaKeyTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMediaKeyTap.h; sourceTree = "<group>"; };
+		254CE4BA18496C45006D5BB7 /* SPMediaKeyTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMediaKeyTap.m; sourceTree = "<group>"; };
+		254CE4CC1849722B006D5BB7 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		254CE4CE184A1175006D5BB7 /* CRRUsersDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRUsersDataSource.h; sourceTree = "<group>"; };
+		254CE4CF184A1175006D5BB7 /* CRRUsersDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRUsersDataSource.m; sourceTree = "<group>"; };
+		254CE522184B756D006D5BB7 /* CRR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254CE523184B756D006D5BB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		254CE525184B756D006D5BB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		254CE527184B756D006D5BB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		254CE52B184B756D006D5BB7 /* Client Room Radio iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Client Room Radio iOS-Info.plist"; sourceTree = "<group>"; };
+		254CE52D184B756D006D5BB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		254CE52F184B756D006D5BB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		254CE531184B756D006D5BB7 /* Client Room Radio iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Client Room Radio iOS-Prefix.pch"; sourceTree = "<group>"; };
+		254CE532184B756D006D5BB7 /* CRRIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRRIAppDelegate.h; sourceTree = "<group>"; };
+		254CE533184B756D006D5BB7 /* CRRIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRRIAppDelegate.m; sourceTree = "<group>"; };
+		254CE536184B756D006D5BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		254CE53B184B756D006D5BB7 /* CRRIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRRIViewController.h; sourceTree = "<group>"; };
+		254CE53C184B756D006D5BB7 /* CRRIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRRIViewController.m; sourceTree = "<group>"; };
+		254CE53E184B756D006D5BB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Client Room Radio iOS/Images.xcassets"; sourceTree = "<group>"; };
+		254CE544184B756D006D5BB7 /* Client Room Radio iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Client Room Radio iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		254CE54C184B756E006D5BB7 /* Client Room Radio iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Client Room Radio iOSTests-Info.plist"; sourceTree = "<group>"; };
+		254CE54E184B756E006D5BB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		254CE550184B756E006D5BB7 /* Client_Room_Radio_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client_Room_Radio_iOSTests.m; sourceTree = "<group>"; };
+		254CE55E184B7F89006D5BB7 /* CRRApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRApp.h; sourceTree = "<group>"; };
+		254CE55F184B7F89006D5BB7 /* CRRApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRApp.m; sourceTree = "<group>"; };
+		254CE561184B7FF5006D5BB7 /* CRRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRController.h; sourceTree = SOURCE_ROOT; };
+		254CE562184B7FF5006D5BB7 /* CRRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRController.m; sourceTree = SOURCE_ROOT; };
+		254CE574184BBC10006D5BB7 /* libSocketRocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSocketRocket.a; path = "../../../Library/Developer/Xcode/DerivedData/SocketRocket-bxftsrpbuoeucqdynwjxbpidbldv/Build/Products/Release-iphonesimulator/libSocketRocket.a"; sourceTree = "<group>"; };
+		255E4D2A18535DEF0092D067 /* CRRUsersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRUsersModel.h; sourceTree = "<group>"; };
+		255E4D2B18535DEF0092D067 /* CRRUsersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRUsersModel.m; sourceTree = "<group>"; };
+		255E4D2E18535FFA0092D067 /* CRRIUsersDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRIUsersDataSource.h; sourceTree = "<group>"; };
+		255E4D2F18535FFA0092D067 /* CRRIUsersDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRIUsersDataSource.m; sourceTree = "<group>"; };
+		257165B9184BBDB8004BAB82 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libicucore.dylib; sourceTree = DEVELOPER_DIR; };
+		257165C7184BFA75004BAB82 /* CRRILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRILoginViewController.h; sourceTree = "<group>"; };
+		257165C8184BFA75004BAB82 /* CRRILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRILoginViewController.m; sourceTree = "<group>"; };
+		257165CB184C0793004BAB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		257AA965183A7A13002AF618 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = "/Users/coffey/Library/Developer/Xcode/DerivedData/Client_Room_Radio-cvpjvilansveuraoheqbtjvbujyn/Build/Products/Debug/../../../../SocketRocket-bxftsrpbuoeucqdynwjxbpidbldv/Build/Products/Release/SocketRocket.framework"; sourceTree = "<absolute>"; };
+		258E66F118441B7E00999406 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		25D15BBF185346E600437469 /* CRRChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRChatModel.h; sourceTree = "<group>"; };
+		25D15BC0185346E600437469 /* CRRChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRChatModel.m; sourceTree = "<group>"; };
+		25DF4E8E1846B92C00247029 /* CRRChatDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRChatDataSource.h; sourceTree = "<group>"; wrapsLines = 0; };
+		25DF4E8F1846B92C00247029 /* CRRChatDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRChatDataSource.m; sourceTree = "<group>"; };
+		3DF535DF3BA6408CB62CA328 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		4825064DB404406CA94E0BD9 /* Pods-osx.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.xcconfig"; path = "Pods/Pods-osx.xcconfig"; sourceTree = "<group>"; };
+		F6EBC150283D4FAD9FB798A5 /* libPods-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE2FA54855F42F2A2477999 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		250AE6541837B49D004195F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254CE4CD1849722B006D5BB7 /* Carbon.framework in Frameworks */,
+				258E66F218441B7E00999406 /* AudioToolbox.framework in Frameworks */,
+				250AE65B1837B49D004195F6 /* Cocoa.framework in Frameworks */,
+				93D07D984C464D3592CA1AD3 /* libPods-osx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250AE6751837B49D004195F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250AE67B1837B49D004195F6 /* Cocoa.framework in Frameworks */,
+				250AE67A1837B49D004195F6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254CE51F184B756D006D5BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254B86AF185DD05C003C8E11 /* UIKit.framework in Frameworks */,
+				253B8953184FFA7300DF3833 /* MediaPlayer.framework in Frameworks */,
+				254CE526184B756D006D5BB7 /* CoreGraphics.framework in Frameworks */,
+				254CE524184B756D006D5BB7 /* Foundation.framework in Frameworks */,
+				8D2C5B5A0FC7402385745174 /* libPods-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254CE541184B756D006D5BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254CE545184B756D006D5BB7 /* XCTest.framework in Frameworks */,
+				254CE547184B756E006D5BB7 /* UIKit.framework in Frameworks */,
+				254CE546184B756E006D5BB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250AE64E1837B49D004195F6 = {
+			isa = PBXGroup;
+			children = (
+				251733E7186711EB0058DFE8 /* cert.der */,
+				251733F21867664D0058DFE8 /* Keys.copy.h */,
+				251733ED186754A20058DFE8 /* Keys.h */,
+				25D15BBF185346E600437469 /* CRRChatModel.h */,
+				25D15BC0185346E600437469 /* CRRChatModel.m */,
+				255E4D2A18535DEF0092D067 /* CRRUsersModel.h */,
+				255E4D2B18535DEF0092D067 /* CRRUsersModel.m */,
+				254CE561184B7FF5006D5BB7 /* CRRController.h */,
+				254CE562184B7FF5006D5BB7 /* CRRController.m */,
+				254CE53E184B756D006D5BB7 /* Images.xcassets */,
+				251733F3186766DF0058DFE8 /* AudioStreamer */,
+				254CE4A318496C45006D5BB7 /* SPMediaKeyTap */,
+				250AE6601837B49D004195F6 /* Client Room Radio */,
+				250AE67E1837B49D004195F6 /* Client Room RadioTests */,
+				254CE529184B756D006D5BB7 /* Client Room Radio iOS */,
+				254CE54A184B756E006D5BB7 /* Client Room Radio iOSTests */,
+				250AE6591837B49D004195F6 /* Frameworks */,
+				250AE6581837B49D004195F6 /* Products */,
+				3DF535DF3BA6408CB62CA328 /* Pods.xcconfig */,
+				0B2BFE425E2D4E1AA66642E4 /* Pods-ios.xcconfig */,
+				4825064DB404406CA94E0BD9 /* Pods-osx.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		250AE6581837B49D004195F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				250AE6571837B49D004195F6 /* Client Room Radio.app */,
+				250AE6781837B49D004195F6 /* Client Room RadioTests.xctest */,
+				254CE522184B756D006D5BB7 /* CRR.app */,
+				254CE544184B756D006D5BB7 /* Client Room Radio iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		250AE6591837B49D004195F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				254B86AD185DCFD4003C8E11 /* UIKit.framework */,
+				253B8952184FFA7200DF3833 /* MediaPlayer.framework */,
+				257165B9184BBDB8004BAB82 /* libicucore.dylib */,
+				254CE574184BBC10006D5BB7 /* libSocketRocket.a */,
+				254CE4CC1849722B006D5BB7 /* Carbon.framework */,
+				258E66F118441B7E00999406 /* AudioToolbox.framework */,
+				257AA965183A7A13002AF618 /* SocketRocket.framework */,
+				250AE65A1837B49D004195F6 /* Cocoa.framework */,
+				250AE6791837B49D004195F6 /* XCTest.framework */,
+				254CE523184B756D006D5BB7 /* Foundation.framework */,
+				254CE525184B756D006D5BB7 /* CoreGraphics.framework */,
+				254CE527184B756D006D5BB7 /* UIKit.framework */,
+				250AE65C1837B49D004195F6 /* Other Frameworks */,
+				049F73FB2F24482DA88F4CAA /* libPods.a */,
+				FDE2FA54855F42F2A2477999 /* libPods-ios.a */,
+				F6EBC150283D4FAD9FB798A5 /* libPods-osx.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		250AE65C1837B49D004195F6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				250AE65D1837B49D004195F6 /* AppKit.framework */,
+				250AE65E1837B49D004195F6 /* CoreData.framework */,
+				250AE65F1837B49D004195F6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		250AE6601837B49D004195F6 /* Client Room Radio */ = {
+			isa = PBXGroup;
+			children = (
+				25DF4E8E1846B92C00247029 /* CRRChatDataSource.h */,
+				25DF4E8F1846B92C00247029 /* CRRChatDataSource.m */,
+				254CE4CE184A1175006D5BB7 /* CRRUsersDataSource.h */,
+				254CE4CF184A1175006D5BB7 /* CRRUsersDataSource.m */,
+				250AE66C1837B49D004195F6 /* CRRAppDelegate.h */,
+				250AE66D1837B49D004195F6 /* CRRAppDelegate.m */,
+				254CE55E184B7F89006D5BB7 /* CRRApp.h */,
+				254CE55F184B7F89006D5BB7 /* CRRApp.m */,
+				250AE66F1837B49D004195F6 /* MainMenu.xib */,
+				250AE6611837B49D004195F6 /* Supporting Files */,
+			);
+			path = "Client Room Radio";
+			sourceTree = "<group>";
+		};
+		250AE6611837B49D004195F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				250AE6621837B49D004195F6 /* Client Room Radio-Info.plist */,
+				250AE6631837B49D004195F6 /* InfoPlist.strings */,
+				250AE6661837B49D004195F6 /* main.m */,
+				250AE6681837B49D004195F6 /* Client Room Radio-Prefix.pch */,
+				250AE6691837B49D004195F6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		250AE67E1837B49D004195F6 /* Client Room RadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				250AE6841837B49D004195F6 /* Client_Room_RadioTests.m */,
+				250AE67F1837B49D004195F6 /* Supporting Files */,
+			);
+			path = "Client Room RadioTests";
+			sourceTree = "<group>";
+		};
+		250AE67F1837B49D004195F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				250AE6801837B49D004195F6 /* Client Room RadioTests-Info.plist */,
+				250AE6811837B49D004195F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		251733F3186766DF0058DFE8 /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				251733EE186764130058DFE8 /* AudioStreamer.h */,
+				251733EF186764130058DFE8 /* AudioStreamer.m */,
+			);
+			name = AudioStreamer;
+			sourceTree = "<group>";
+		};
+		254CE4A318496C45006D5BB7 /* SPMediaKeyTap */ = {
+			isa = PBXGroup;
+			children = (
+				254CE4B818496C45006D5BB7 /* NSObject+SPInvocationGrabbing.m */,
+				254CE4B718496C45006D5BB7 /* NSObject+SPInvocationGrabbing.h */,
+				254CE4B918496C45006D5BB7 /* SPMediaKeyTap.h */,
+				254CE4BA18496C45006D5BB7 /* SPMediaKeyTap.m */,
+			);
+			path = SPMediaKeyTap;
+			sourceTree = "<group>";
+		};
+		254CE529184B756D006D5BB7 /* Client Room Radio iOS */ = {
+			isa = PBXGroup;
+			children = (
+				253B894F184FEDB600DF3833 /* CRRIChatDataSource.h */,
+				253B8950184FEDB600DF3833 /* CRRIChatDataSource.m */,
+				255E4D2E18535FFA0092D067 /* CRRIUsersDataSource.h */,
+				255E4D2F18535FFA0092D067 /* CRRIUsersDataSource.m */,
+				254B86B3185DEEEB003C8E11 /* CRRIUsersController.h */,
+				254B86B4185DEEEB003C8E11 /* CRRIUsersController.m */,
+				254CE532184B756D006D5BB7 /* CRRIAppDelegate.h */,
+				254CE533184B756D006D5BB7 /* CRRIAppDelegate.m */,
+				254CE535184B756D006D5BB7 /* Main_iPhone.storyboard */,
+				257165CA184C0793004BAB82 /* Main_iPad.storyboard */,
+				257165C7184BFA75004BAB82 /* CRRILoginViewController.h */,
+				257165C8184BFA75004BAB82 /* CRRILoginViewController.m */,
+				254CE53B184B756D006D5BB7 /* CRRIViewController.h */,
+				254CE53C184B756D006D5BB7 /* CRRIViewController.m */,
+				254B86B0185DE468003C8E11 /* CRRIViewDeckController.h */,
+				254B86B1185DE468003C8E11 /* CRRIViewDeckController.m */,
+				254CE52A184B756D006D5BB7 /* Supporting Files */,
+			);
+			path = "Client Room Radio iOS";
+			sourceTree = "<group>";
+		};
+		254CE52A184B756D006D5BB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				254CE52B184B756D006D5BB7 /* Client Room Radio iOS-Info.plist */,
+				254CE52C184B756D006D5BB7 /* InfoPlist.strings */,
+				254CE52F184B756D006D5BB7 /* main.m */,
+				254CE531184B756D006D5BB7 /* Client Room Radio iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		254CE54A184B756E006D5BB7 /* Client Room Radio iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				254CE550184B756E006D5BB7 /* Client_Room_Radio_iOSTests.m */,
+				254CE54B184B756E006D5BB7 /* Supporting Files */,
+			);
+			path = "Client Room Radio iOSTests";
+			sourceTree = "<group>";
+		};
+		254CE54B184B756E006D5BB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				254CE54C184B756E006D5BB7 /* Client Room Radio iOSTests-Info.plist */,
+				254CE54D184B756E006D5BB7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		250AE6561837B49D004195F6 /* Client Room Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250AE6881837B49D004195F6 /* Build configuration list for PBXNativeTarget "Client Room Radio" */;
+			buildPhases = (
+				2A17A7C532D24572AD8BC619 /* Check Pods Manifest.lock */,
+				250AE6531837B49D004195F6 /* Sources */,
+				250AE6541837B49D004195F6 /* Frameworks */,
+				250AE6551837B49D004195F6 /* Resources */,
+				4359AE205E194A4E9C6EB2CC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Client Room Radio";
+			productName = "Client Room Radio";
+			productReference = 250AE6571837B49D004195F6 /* Client Room Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		250AE6771837B49D004195F6 /* Client Room RadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250AE68B1837B49D004195F6 /* Build configuration list for PBXNativeTarget "Client Room RadioTests" */;
+			buildPhases = (
+				250AE6741837B49D004195F6 /* Sources */,
+				250AE6751837B49D004195F6 /* Frameworks */,
+				250AE6761837B49D004195F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				250AE67D1837B49D004195F6 /* PBXTargetDependency */,
+			);
+			name = "Client Room RadioTests";
+			productName = "Client Room RadioTests";
+			productReference = 250AE6781837B49D004195F6 /* Client Room RadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		254CE521184B756D006D5BB7 /* Client Room Radio iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254CE552184B756E006D5BB7 /* Build configuration list for PBXNativeTarget "Client Room Radio iOS" */;
+			buildPhases = (
+				B16BF2624C6F47E19E5CF9CE /* Check Pods Manifest.lock */,
+				254CE51E184B756D006D5BB7 /* Sources */,
+				254CE51F184B756D006D5BB7 /* Frameworks */,
+				254CE520184B756D006D5BB7 /* Resources */,
+				E9FB510F60464A82B5C7E96D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Client Room Radio iOS";
+			productName = "Client Room Radio iOS";
+			productReference = 254CE522184B756D006D5BB7 /* CRR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		254CE543184B756D006D5BB7 /* Client Room Radio iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254CE555184B756E006D5BB7 /* Build configuration list for PBXNativeTarget "Client Room Radio iOSTests" */;
+			buildPhases = (
+				254CE540184B756D006D5BB7 /* Sources */,
+				254CE541184B756D006D5BB7 /* Frameworks */,
+				254CE542184B756D006D5BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254CE549184B756E006D5BB7 /* PBXTargetDependency */,
+			);
+			name = "Client Room Radio iOSTests";
+			productName = "Client Room Radio iOSTests";
+			productReference = 254CE544184B756D006D5BB7 /* Client Room Radio iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		250AE64F1837B49D004195F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CRR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Michael Coffey";
+				TargetAttributes = {
+					250AE6771837B49D004195F6 = {
+						TestTargetID = 250AE6561837B49D004195F6;
+					};
+					254CE521184B756D006D5BB7 = {
+						DevelopmentTeam = 6EY6AB6426;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					254CE543184B756D006D5BB7 = {
+						TestTargetID = 250AE6561837B49D004195F6;
+					};
+				};
+			};
+			buildConfigurationList = 250AE6521837B49D004195F6 /* Build configuration list for PBXProject "Client Room Radio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = 250AE64E1837B49D004195F6;
+			productRefGroup = 250AE6581837B49D004195F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				250AE6561837B49D004195F6 /* Client Room Radio */,
+				250AE6771837B49D004195F6 /* Client Room RadioTests */,
+				254CE521184B756D006D5BB7 /* Client Room Radio iOS */,
+				254CE543184B756D006D5BB7 /* Client Room Radio iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		250AE6551837B49D004195F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D57832186884E20054384D /* Images.xcassets in Resources */,
+				250AE6651837B49D004195F6 /* InfoPlist.strings in Resources */,
+				250AE66B1837B49D004195F6 /* Credits.rtf in Resources */,
+				251733EC186750870058DFE8 /* cert.der in Resources */,
+				250AE6711837B49D004195F6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250AE6761837B49D004195F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250AE6831837B49D004195F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254CE520184B756D006D5BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254CE53F184B756D006D5BB7 /* Images.xcassets in Resources */,
+				257165CC184C0793004BAB82 /* Main_iPad.storyboard in Resources */,
+				254CE537184B756D006D5BB7 /* Main_iPhone.storyboard in Resources */,
+				254CE52E184B756D006D5BB7 /* InfoPlist.strings in Resources */,
+				251733E8186711EB0058DFE8 /* cert.der in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254CE542184B756D006D5BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254CE54F184B756E006D5BB7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A17A7C532D24572AD8BC619 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4359AE205E194A4E9C6EB2CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-osx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B16BF2624C6F47E19E5CF9CE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FB510F60464A82B5C7E96D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		250AE6531837B49D004195F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254CE4C618496C45006D5BB7 /* NSObject+SPInvocationGrabbing.m in Sources */,
+				250AE66E1837B49D004195F6 /* CRRAppDelegate.m in Sources */,
+				254CE4D0184A1175006D5BB7 /* CRRUsersDataSource.m in Sources */,
+				254CE560184B7F89006D5BB7 /* CRRApp.m in Sources */,
+				255E4D2C18535DEF0092D067 /* CRRUsersModel.m in Sources */,
+				251733F0186764130058DFE8 /* AudioStreamer.m in Sources */,
+				250AE6671837B49D004195F6 /* main.m in Sources */,
+				254CE563184B7FF5006D5BB7 /* CRRController.m in Sources */,
+				25D15BC1185346E600437469 /* CRRChatModel.m in Sources */,
+				25DF4E901846B92C00247029 /* CRRChatDataSource.m in Sources */,
+				254CE4C718496C45006D5BB7 /* SPMediaKeyTap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250AE6741837B49D004195F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250AE6851837B49D004195F6 /* Client_Room_RadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254CE51E184B756D006D5BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253B8951184FEDB600DF3833 /* CRRIChatDataSource.m in Sources */,
+				254B86B2185DE468003C8E11 /* CRRIViewDeckController.m in Sources */,
+				254B86B5185DEEEB003C8E11 /* CRRIUsersController.m in Sources */,
+				25D15BC2185346E600437469 /* CRRChatModel.m in Sources */,
+				254CE53D184B756D006D5BB7 /* CRRIViewController.m in Sources */,
+				257165C9184BFA75004BAB82 /* CRRILoginViewController.m in Sources */,
+				254CE534184B756D006D5BB7 /* CRRIAppDelegate.m in Sources */,
+				255E4D2D18535DEF0092D067 /* CRRUsersModel.m in Sources */,
+				255E4D3018535FFA0092D067 /* CRRIUsersDataSource.m in Sources */,
+				254CE530184B756D006D5BB7 /* main.m in Sources */,
+				254CE564184B7FF5006D5BB7 /* CRRController.m in Sources */,
+				251733F1186764130058DFE8 /* AudioStreamer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254CE540184B756D006D5BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254CE551184B756E006D5BB7 /* Client_Room_Radio_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		250AE67D1837B49D004195F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 250AE6561837B49D004195F6 /* Client Room Radio */;
+			targetProxy = 250AE67C1837B49D004195F6 /* PBXContainerItemProxy */;
+		};
+		254CE549184B756E006D5BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254CE521184B756D006D5BB7 /* Client Room Radio iOS */;
+			targetProxy = 254CE548184B756E006D5BB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		250AE6631837B49D004195F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250AE6641837B49D004195F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		250AE6691837B49D004195F6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250AE66A1837B49D004195F6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		250AE66F1837B49D004195F6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250AE6701837B49D004195F6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		250AE6811837B49D004195F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250AE6821837B49D004195F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		254CE52C184B756D006D5BB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254CE52D184B756D006D5BB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		254CE535184B756D006D5BB7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254CE536184B756D006D5BB7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		254CE54D184B756E006D5BB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254CE54E184B756E006D5BB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		257165CA184C0793004BAB82 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				257165CB184C0793004BAB82 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		250AE6861837B49D004195F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		250AE6871837B49D004195F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		250AE6891837B49D004195F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4825064DB404406CA94E0BD9 /* Pods-osx.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconOSX;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SocketRocket-bxftsrpbuoeucqdynwjxbpidbldv/Build/Products/Release",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Client Room Radio/Client Room Radio-Prefix.pch";
+				INFOPLIST_FILE = "Client Room Radio/Client Room Radio-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		250AE68A1837B49D004195F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4825064DB404406CA94E0BD9 /* Pods-osx.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconOSX;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SocketRocket-bxftsrpbuoeucqdynwjxbpidbldv/Build/Products/Release",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Client Room Radio/Client Room Radio-Prefix.pch";
+				INFOPLIST_FILE = "Client Room Radio/Client Room Radio-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		250AE68C1837B49D004195F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Client Room Radio.app/Contents/MacOS/Client Room Radio";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Client Room Radio/Client Room Radio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Client Room RadioTests/Client Room RadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		250AE68D1837B49D004195F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Client Room Radio.app/Contents/MacOS/Client Room Radio";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Client Room Radio/Client Room Radio-Prefix.pch";
+				INFOPLIST_FILE = "Client Room RadioTests/Client Room RadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		254CE553184B756E006D5BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2BFE425E2D4E1AA66642E4 /* Pods-ios.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Client Room Radio iOS/Client Room Radio iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/coffey/Projects/SocketRocket/,
+				);
+				INFOPLIST_FILE = "Client Room Radio iOS/Client Room Radio iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SocketRocket-bxftsrpbuoeucqdynwjxbpidbldv/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SocketRocket-bxftsrpbuoeucqdynwjxbpidbldv/Build/Products/Debug-iphonesimulator",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SocketRocket-bxftsrpbuoeucqdynwjxbpidbldv/Build/Products/Release-iphonesimulator",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = CRR;
+				PROVISIONING_PROFILE = "6EDCEBED-65BB-4CB2-8185-A0DC3689FAC3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		254CE554184B756E006D5BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2BFE425E2D4E1AA66642E4 /* Pods-ios.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Client Room Radio iOS/Client Room Radio iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/coffey/Projects/SocketRocket/,
+				);
+				INFOPLIST_FILE = "Client Room Radio iOS/Client Room Radio iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SocketRocket-bxftsrpbuoeucqdynwjxbpidbldv/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SocketRocket-bxftsrpbuoeucqdynwjxbpidbldv/Build/Products/Debug-iphonesimulator",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SocketRocket-bxftsrpbuoeucqdynwjxbpidbldv/Build/Products/Release-iphonesimulator",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = CRR;
+				PROVISIONING_PROFILE = "6EDCEBED-65BB-4CB2-8185-A0DC3689FAC3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		254CE556184B756E006D5BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Client Room Radio.app/Contents/MacOS/Client Room Radio";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Client Room Radio iOS/Client Room Radio iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Client Room Radio iOSTests/Client Room Radio iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		254CE557184B756E006D5BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Client Room Radio.app/Contents/MacOS/Client Room Radio";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Client Room Radio iOS/Client Room Radio iOS-Prefix.pch";
+				INFOPLIST_FILE = "Client Room Radio iOSTests/Client Room Radio iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		250AE6521837B49D004195F6 /* Build configuration list for PBXProject "Client Room Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250AE6861837B49D004195F6 /* Debug */,
+				250AE6871837B49D004195F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		250AE6881837B49D004195F6 /* Build configuration list for PBXNativeTarget "Client Room Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250AE6891837B49D004195F6 /* Debug */,
+				250AE68A1837B49D004195F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		250AE68B1837B49D004195F6 /* Build configuration list for PBXNativeTarget "Client Room RadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250AE68C1837B49D004195F6 /* Debug */,
+				250AE68D1837B49D004195F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254CE552184B756E006D5BB7 /* Build configuration list for PBXNativeTarget "Client Room Radio iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254CE553184B756E006D5BB7 /* Debug */,
+				254CE554184B756E006D5BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254CE555184B756E006D5BB7 /* Build configuration list for PBXNativeTarget "Client Room Radio iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254CE556184B756E006D5BB7 /* Debug */,
+				254CE557184B756E006D5BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 250AE64F1837B49D004195F6 /* Project object */;
+}
