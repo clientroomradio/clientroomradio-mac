@@ -6,7 +6,9 @@ This is the Mac OS X and iOS project for Client Room Radio.
 
 Remember to initialise the submodules.
 
-You install cocoapods and then install Client Room Radio's dependancies:
+Copy Keys.copy.h to Keys.h and add your details.
+
+With cocoapods, install Client Room Radio's dependancies:
 
     pod install
 
